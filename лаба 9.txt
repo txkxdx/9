@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+
+	cout << "Цикл 'While'";
+	cout << "Введите число: ";
+	int num;
+	cin >> num;
+	int b = 0;
+	int answer;
+	int _;
+
+	if (num == 0 || num > 15) {
+		cout << "Error";
+	}
+
+	else
+
+
+	while (num != 0) 
+	{
+		num--;
+		cout << "Цикл отработал. Круг: " << b++ << endl;
+	}
+
+	cout << "Повторить программу? (1-da/2-net): "; cin >> answer;
+	while (answer != 2) {
+		cout << "Цикл 'While'";
+		cout << "Введите число: ";
+		int num;
+		cin >> num;
+		int b = 0;
+		int answer;
+		int _;
+
+		if (num == 0 || num > 15) {
+			cout << "Error";
+		}
+
+		else
+
+
+			while (num != 0)
+			{
+				num--;
+				cout << "Цикл отработал. Круг: " << b++ << endl;
+			}
+	}
+	
+	
+
+
+	return 0;
+}
